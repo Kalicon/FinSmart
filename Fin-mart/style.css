@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif; 
+}
+
+.gradient-background {
+    background: linear-gradient(to bottom, #d4f0ff, #e0caff); 
+}
+
+.text-dark-blue {
+    color: #213550; 
+}
+
+.text-light-blue {
+    color: #4CAF50; 
+}
+
+.icon-size {
+    max-width: 150px; 
+    height: auto;
+}
+
+
+.custom-input-group .form-control {
+    border-radius: 25px; 
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border: none; 
+    background-color: #f0f0f0; 
+}
+
+
+.btn-outline-secondary {
+    color: #213550;
+    border-color: #213550;
+    border-radius: 25px;
+    padding: 10px 40px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #213550;
+    color: white;
+}
+
+
+.btn-primary {
+    background-color: #4CAF50; 
+    border-color: #4CAF50;
+    border-radius: 25px;
+    padding: 10px 40px;
+}
+
+.btn-primary:hover {
+    background-color: #388E3C; 
+    border-color: #388E3C;
+}
+
+
+.mobile-card-img {
+    max-width: 300px; 
+    height: auto;
+    margin-top: 30px; 
+}
+
+
+@media (max-width: 768px) {
+    .icon-size {
+        max-width: 120px;
+    }
+    .mobile-card-img {
+        max-width: 250px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .icon-size {
+        max-width: 100px;
+    }
+    .mobile-card-img {
+        max-width: 200px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2, h3 {
+        font-size: 1.3rem;
+    }
+    .btn-lg {
+        padding: 8px 30px;
+        font-size: 1rem;
+    }
+    .form-control-lg {
+        padding: 8px 15px;
+    }
+}
